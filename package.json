@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./input.css -o ./layouts/css/styles.css --watch",
+    "prod": "npx tailwindcss -i ./input.css -o ./layouts/css/styles.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "github:tailwindcss/typography"
+  }
+}
